@@ -1,0 +1,201 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#header ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.thumbnailColor{
+  background-color: #eee;
+  border: 1px solid #eee;
+  height: 350px;
+}
+
+.main-head {
+    background-color: #111;
+}
+
+.width25{
+  width: 25%;
+}
+
+.mand{
+  color: red;
+}
+.width15{
+  width: 15%;
+}
+
+.wColor{
+  color : purple;
+}
+
+.imgViewCart{
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+
+}
+.marginTop50{
+  margin-top: 50px;
+}
+
+.main-content {
+  overflow:auto;
+  background-color: gray;
+  color: white;
+}
+
+.main-footer {
+  height:50px; 
+  background-color: #111;
+}
+
+.active {
+  background-color: #337ab7;
+}
+.row {
+    margin-right: -15px;
+    margin-left: 63px;
+}
+
+.prodImg {
+  height: 350px;
+}
+.product-cart-btn{
+    width: 60%;
+    height: 50px;
+    overflow: hidden;
+}
+.products{
+  padding-top: 20px;
+}
+.product{
+  text-align:center; 
+  display:none;
+}
+
+.product-cart-price{
+    display: inline;
+    float: left;
+}
+.product-cart-price p{
+    color: #008000;
+    line-height: 32px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.btn-addtocart{
+    display: inline;
+    float: right;
+}
+.btn-addtocart button{
+    height:33px;
+    border-radius:0px;
+    background-color: #008000; 
+    color:#ffffff;
+}
+
+
+.listItem {
+  color: #337ab7;
+}
+.addtoCart{
+ height: 19px;
+ width: 25px;
+}
+
+.colmd{
+    width: 25%;
+}
+
+.iconImg{
+    height: 50px;
+    width: 50px;
+}
+
+.imgHome {
+    height: 100%;
+    width: 100%;
+}
+
+.marginRight {
+    margin-right: 60%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+.App-table{
+  margin: 27px 0px 50px 0px;
+  margin-left: 493px
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  color: white;
+}
+.container{
+  background-color: gray;
+  height: 100%;
+  padding: 100px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.btn-link{
+  color: #fff;
+}
